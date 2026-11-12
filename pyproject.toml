@@ -1,0 +1,20 @@
+[project]
+name = "MuteGame"
+version = "1.0.0"
+description = "群聊禁言游戏插件：天弃之子 / 同归于尽 / 精致睡眠（移植自 astrbot_plugin_group_fun）"
+authors = [
+    {name = "小轩", email = ""},
+]
+dependencies = [
+    "pillow>=10.2.0",
+]
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "MIT"}
+
+[project.urls]
+Repository = "https://github.com/xxuanzQAQ/astrbot_plugin_group_fun"
+Issues = "https://github.com/xxuanzQAQ/astrbot_plugin_group_fun/issues"
+
+[tool.pdm]
+distribution = false
